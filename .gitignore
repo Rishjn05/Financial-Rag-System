@@ -1,0 +1,15 @@
+# Secrets — never commit
+.env
+
+# Virtual environment
+venv/
+
+# Vector DB (regenerated from code)
+data/chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model cache (optional)
+.cache/
