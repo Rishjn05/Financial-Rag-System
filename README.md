@@ -124,9 +124,4 @@ src/
 
 ---
 
-## What I'd do next
 
-1. **Table-aware chunking** — treat tables as atomic units so they aren't fragmented (the root-cause fix).
-2. **Larger, multi-document corpus** — extend beyond a single filing; test cross-document questions.
-3. **Stronger evaluation** — expand the test set, add an LLM-as-judge for faithfulness beyond string matching.
-4. **Multi-agent extension** — a retriever agent plus a verifier agent that checks cited numbers against the source.
